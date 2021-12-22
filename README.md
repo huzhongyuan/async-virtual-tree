@@ -34,7 +34,7 @@ npm run build
 ></asyncVirtualList>
 
 // selType(非必填, checkbox开启时使用 1未勾选 2勾选 3半勾) 、 isLeaf(非必填、设置是否该节点可以展开)
-list: { id: '1', name: '1',  selType: 1, isLeaf: true },
+list: [{ id: '1', name: '1',  selType: 1, isLeaf: true }],
 
 // 展开加载数据
 loadMore(nodeData) {
