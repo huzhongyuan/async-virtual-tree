@@ -1,5 +1,7 @@
 # async-virtual-list
-` 异步虚拟滚动树dom，支持大量数据，暂只支持无checkbox版本 `
+1. 虚拟列表（只传入list参数）
+2. 异步树不带checkbox（传入参数list、loadMore）
+3. 异步树带checkbox（传入参数list、loadMore、isCheckbox）
 ## Project setup
 ```
 npm install
@@ -32,7 +34,7 @@ npm run build
 ></asyncVirtualList>
 
 // selType(非必填, checkbox开启时使用 1未勾选 2勾选 3半勾) 、 isLeaf(非必填、设置是否该节点可以展开)
-list: { id: '1', name: '1',  selType: 1, isLeaf: true },
+list: [{ id: '1', name: '1',  selType: 1, isLeaf: true }],
 
 // 展开加载数据
 loadMore(nodeData) {
