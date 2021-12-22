@@ -1,5 +1,7 @@
 # async-virtual-list
-` 异步虚拟滚动树dom，支持大量数据，暂只支持无checkbox版本 `
+1. 虚拟列表（只传入list参数）
+2. 异步树不带checkbox（传入参数list、loadMore）
+3. 异步树带checkbox（传入参数list、loadMore、isCheckbox）
 ## Project setup
 ```
 npm install
