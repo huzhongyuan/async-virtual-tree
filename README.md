@@ -73,7 +73,7 @@ getLeafStatus方法获取勾选数据格式如下
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f85453ebe0d648d78ec12ee65b1282b6~tplv-k3u1fbpfcp-watermark.image?)
 
 - chechKeyList-所有勾选的叶子结点的id集合
-- halfCheckKeyList-所有版勾选状态的叶子结点id集合
+- halfCheckKeyList-所有半勾选状态的叶子结点id集合
 
 ### 2、后端如何返回数据
 loadMore方法返回的数据需要后端计算子节点如下字段：
