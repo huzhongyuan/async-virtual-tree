@@ -67,7 +67,7 @@ getLeafStatus() {
 ## 问题
 ### 1、异步树如何能获取到所有选择的节点？
 
-答：所有勾选状态的叶子结点+半勾选状态的叶子结点的集合。后端通过半勾选状态的叶子结点可查询到该节点下的所有勾选的结点id。
+所有勾选状态的叶子结点+半勾选状态的叶子结点的集合。后端通过半勾选状态的叶子结点可查询到该节点下的所有勾选的结点id。
 
 getLeafStatus方法获取勾选数据格式如下
 ![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f85453ebe0d648d78ec12ee65b1282b6~tplv-k3u1fbpfcp-watermark.image?)
