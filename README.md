@@ -1,7 +1,4 @@
-# async-virtual-list
-1. 虚拟列表（只传入list参数）
-2. 异步树不带checkbox（传入参数list、loadMore）
-3. 异步树带checkbox（传入参数list、loadMore、isCheckbox）
+
 ## Project setup
 ```
 npm install
@@ -16,6 +13,11 @@ npm run serve
 ```
 npm run build
 ```
+
+# async-virtual-list
+1. 虚拟列表（只传入list参数）
+2. 异步树不带checkbox（传入参数list、loadMore）
+3. 异步树带checkbox（传入参数list、loadMore、isCheckbox）
 
 # 前言
 为啥自己写？目前使用较多的ElementUI等组件库均不支持大量数据的异步加载方式，致力于寻求一个更合适的大数据树的解决方案，用多了复杂全面的组件反而更偏爱单一性、轻量化的组件，初案方至。
